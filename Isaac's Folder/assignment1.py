@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("Watts, 3-Ph total.csv")
+df = pd.read_csv("AssignmentOne/Watts, 3-Ph total.csv")
 
 max_row = df.loc[df["meter_reading"].idxmax()]
 min_row = df.loc[df["meter_reading"].idxmax()]
@@ -12,4 +12,4 @@ print(f"Average Meter Reading: {average_value:.2f}\n")
 
 df["kilowatts"] = df["meter_reading"] / 1000
 df["kWh"] = df["kilowatts"] * 0.25
-df.to_csv("Isaac_Towai's Folder/AssignmentOne.csv", index = False)
+df.to_csv("Isaac's Folder/AssignmentOne.csv", index = False)
