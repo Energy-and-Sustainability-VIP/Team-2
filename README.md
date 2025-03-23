@@ -16,6 +16,7 @@
 
 ## Tasks for assignment 3 (Please ask questions about this one, may not be worded well)
 Note: You can look for references in week 6 for team 1's drive for their code or in the github repository named "Pyoneers"
+https://www.ibm.com/docs/en/watson-studio-local/1.2.3?topic=notebooks-markdown-jupyter-cheatsheet If you want to learn markdown for the python notebook
 1. Pick a building in the Spring_2025_VIP shared drive (Spring_2025_VIP > data_files_new > pv_data, this is the pv generation)
 2. Find the corresponding meter in the main_meter folder. (This is the building load)
 3. Create a python file named YourName_functions.py and a python notebook named YourName_Analysis.ipynb
